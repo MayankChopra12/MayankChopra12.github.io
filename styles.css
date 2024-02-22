@@ -8,6 +8,7 @@ body {
     background-position: center;
 }
 
+
 header {
     background-color: #343a40; /* Dark gray header */
     color: #fff;
@@ -77,6 +78,10 @@ form {
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.invalid {
+    border: 1px solid red !important;
 }
 
 label, input, textarea {
